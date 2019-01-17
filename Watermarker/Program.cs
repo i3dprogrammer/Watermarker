@@ -58,7 +58,6 @@ namespace Watermarker
             Directory.CreateDirectory(dirName);
 
             var path = args[0];
-
             if (!File.Exists(path) && !Directory.Exists(path))
                 throw new Exception("Invalid path specified.");
 
